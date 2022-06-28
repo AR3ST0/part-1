@@ -25,14 +25,20 @@
 
 // loop exs...
 ///////////////////////////////////////////////////
-let result = ''
+// let result = ''
 
-const length = 7
+// const length = 7
 
-for (let i = 1; i < length; i++) {
-    for (let j = 0; j < i; j++) {
-        result += '*'
+// for (let i = 1; i < length; i++) {
+//     for (let j = 0; j < i; j++) {
+//         result += '*'
+//     }
+//     result += '/n'
+// }
+// document.write(result)
+
+for (i = 1; i < 11; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
     }
-    result += '/n'
 }
-document.write(result)
